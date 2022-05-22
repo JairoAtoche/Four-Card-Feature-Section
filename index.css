@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Primary Colors */
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    /* Neutral Colors */
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    /* Font */
+    font-family: 'Poppins', sans-serif;
+}
+.body {
+    height: 1360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main {
+    margin: 90px 40px auto;
+
+}
+.main__h1 {
+    color: var(--very-dark-blue);
+    font-size: 24px;
+    font-weight: 200;
+}
+.main__h2 {
+    font-size: 24px;
+    color: var(--very-dark-blue);
+    margin-bottom: 16px;
+}
+.main__p {
+    color: var(--grayish-blue);
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 75px;
+}
+.main__supervisor,.main__team-builder, .main__karma, .main__calculator {
+    height: 310px;
+    width: 224px;
+    border-radius: 10px;
+    border-top: 5px solid var(--cyan);
+    box-shadow: 0px 6px 12px 0px var(--grayish-blue);
+    margin-bottom: 24px;
+}
+.footer__attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.footer__a {
+    color: hsl(228, 45%, 44%); 
+}
